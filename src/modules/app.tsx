@@ -1,9 +1,7 @@
 import { useEffect, useState } from "react";
 import SelectCountry from "../components/SelectCountry.component";
-import { useRebill } from "rebill-react";
+import { Checkout, useRebill } from "rebill-react";
 import { countries, customerMap } from "./app.helper";
-import Checkout from "../components/Checkout.component";
-import { getIdentificationBy } from "rebill";
 
 function App() {
   const { sdk, setTransaction, setCustomer } = useRebill();
@@ -19,10 +17,6 @@ function App() {
 
     setCustomer(customer);
   }, [sdk, countrySelected]);
-
-  useEffect(() => {
-    getIdentificationBy('MX'); //@todo revisar estos metodos
-  }, [countrySelected]);
 
   return (
     <>
