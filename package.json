@@ -14,7 +14,7 @@
     "@heroicons/react": "^2.1.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "rebill": "^1.0.25",
+    "rebill": "^1.0.26",
     "rebill-react": "^1.0.32"
   },
   "devDependencies": {
