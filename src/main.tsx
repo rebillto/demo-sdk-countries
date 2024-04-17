@@ -5,7 +5,7 @@ import { RebillProvider } from "rebill-react";
 import App from "./modules/app.tsx";
 import "./index.css";
 
-const apiKey = "API_KEY_328372c6-6da5-41d7-a9de-05ef5d97716f";
+const apiKey = "API_KEY_b4301ad1-5a1a-49be-820a-873dd3c6788e";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
