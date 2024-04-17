@@ -75,13 +75,13 @@ const customerArg = {
 const brazilCustomer = {
   firstName: "Nahuel",
   lastName: "Candia",
-  email: "nahue@rebill.com",
+  email: "nahueBR@rebill.com",
   personalId: {
     type: "CPF",
     value: "08333762921",
   },
   phone: {
-    countryCode: "54",
+    countryCode: "55",
     areaCode: "",
     phoneNumber: "3517668346",
   },
@@ -94,7 +94,6 @@ const brazilCustomer = {
     state: "Minas Gerais",
   },
 };
-
 const chileCustomer = {
   firstName: "Fran",
   lastName: "Paganucci",
