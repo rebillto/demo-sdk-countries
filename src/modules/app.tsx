@@ -15,7 +15,7 @@ function App() {
       currency,
     });
 
-    setCustomer(customer);
+    setCustomer(customer as any);
   }, [sdk, countrySelected]);
 
   return (

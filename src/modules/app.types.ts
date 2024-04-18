@@ -69,7 +69,7 @@ export interface Customer {
   email: string;
   birthday?: string;
   phone: Phone;
-  personalId: PersonalId;
+  personalId?: PersonalId;
   address: Address;
   taxId?: TaxId;
   card?: Card;
