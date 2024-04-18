@@ -15,7 +15,7 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "rebill": "^1.0.26",
-    "rebill-react": "^1.0.32"
+    "rebill-react": "^1.0.33"
   },
   "devDependencies": {
     "@types/react": "^18.2.66",

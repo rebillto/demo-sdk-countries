@@ -185,23 +185,19 @@ const uruguayCustomer = {
 const mexicoCustomer = {
   firstName: "Marian",
   lastName: "Mitelman",
-  email: "marian@gmail.com",
+  email: "alejoMX@rebill.com",
   phone: {
     countryCode: "52",
     areaCode: "",
-    phoneNumber: "5261327677",
-  },
-  personalId: {
-    type: "ID",
-    value: "MAAR790213HMNRLF03",
+    phoneNumber: "3624161125",
   },
   address: {
-    street: "Avenida Bolivar",
-    number: "1234",
+    country: "MX",
+    street: "Roldan",
+    number: "998",
+    zipCode: "3499",
     city: "Mexico",
     state: "Mexico",
-    zipCode: "16900",
-    country: "MX",
   },
 };
 
